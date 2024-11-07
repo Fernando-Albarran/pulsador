@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const boton = document.getElementById("botonPrueba");
-    const colores = ["red", "blue", "yellow", "green", "white"];
+    const colores = ["aqua", "blue", "yellow", "pink", "purple"];
     
     boton.addEventListener("click", () => {
         const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
